@@ -2,6 +2,7 @@
 #if canImport(UIKit)
 import UIKit
 
+@available(iOS 13.0, *)
 public struct SFSymbol {
     public static let _0Circle = UIImage(systemName: "0.circle")
     public static let _0CircleFill = UIImage(systemName: "0.circle.fill")
