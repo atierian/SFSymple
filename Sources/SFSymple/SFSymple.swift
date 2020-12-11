@@ -2675,6 +2675,7 @@ public struct SFSymbol {
     public static let zzz = UIImage(systemName: "zzz")
 }
 
+@available(iOS 13.0, *)
 extension UIImage {
     public func with(textStyle: UIFont.TextStyle) -> UIImage? {
         self.applyingSymbolConfiguration(UIImage.SymbolConfiguration(textStyle: textStyle))
